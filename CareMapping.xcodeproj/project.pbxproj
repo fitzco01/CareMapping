@@ -7,24 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6271D1C1CF0095C002B9799 /* FlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6271D1B1CF0095C002B9799 /* FlowViewController.swift */; };
+		A6271D221CF059AD002B9799 /* AddGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6271D211CF059AD002B9799 /* AddGroupViewController.swift */; };
+		A6271D241CF059DF002B9799 /* AddPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6271D231CF059DF002B9799 /* AddPersonViewController.swift */; };
+		A6271D261CF05C91002B9799 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6271D251CF05C91002B9799 /* People.swift */; };
+		A6271D281CF05C9B002B9799 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6271D271CF05C9B002B9799 /* Groups.swift */; };
+		A6271D2A1CF06187002B9799 /* Relationships.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6271D291CF06187002B9799 /* Relationships.swift */; };
+		A6271D2C1CF06AF3002B9799 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6271D2B1CF06AF3002B9799 /* TrieNode.swift */; };
+		A6271D2E1CF06AFE002B9799 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6271D2D1CF06AFE002B9799 /* Trie.swift */; };
+		A6271D381CF06E32002B9799 /* CareMappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6271D371CF06E32002B9799 /* CareMappingTests.swift */; };
+		A6271D401CF071BA002B9799 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6271D3F1CF071BA002B9799 /* extensions.swift */; };
 		A6EB3D211CEE5F5200ECDDC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3D201CEE5F5200ECDDC3 /* AppDelegate.swift */; };
-		A6EB3D231CEE5F5200ECDDC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3D221CEE5F5200ECDDC3 /* ViewController.swift */; };
+		A6EB3D231CEE5F5200ECDDC3 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3D221CEE5F5200ECDDC3 /* HomeScreenViewController.swift */; };
 		A6EB3D261CEE5F5200ECDDC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EB3D241CEE5F5200ECDDC3 /* Main.storyboard */; };
 		A6EB3D281CEE5F5200ECDDC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6EB3D271CEE5F5200ECDDC3 /* Assets.xcassets */; };
 		A6EB3D2B1CEE5F5200ECDDC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EB3D291CEE5F5200ECDDC3 /* LaunchScreen.storyboard */; };
+		A6EB3D351CEE746B00ECDDC3 /* GroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3D341CEE746B00ECDDC3 /* GroupsTableViewController.swift */; };
+		A6EB3D371CEE747B00ECDDC3 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3D361CEE747B00ECDDC3 /* ContactsTableViewController.swift */; };
+		A6EB3D391CEE748900ECDDC3 /* GroupsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3D381CEE748900ECDDC3 /* GroupsTableViewCell.swift */; };
+		A6EB3D3B1CEE749300ECDDC3 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3D3A1CEE749300ECDDC3 /* ContactsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A6271D3A1CF06E32002B9799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6EB3D151CEE5F5200ECDDC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6EB3D1C1CEE5F5200ECDDC3;
+			remoteInfo = CareMapping;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		A6271D1B1CF0095C002B9799 /* FlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlowViewController.swift; path = ../FlowViewController.swift; sourceTree = "<group>"; };
+		A6271D211CF059AD002B9799 /* AddGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGroupViewController.swift; sourceTree = "<group>"; };
+		A6271D231CF059DF002B9799 /* AddPersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPersonViewController.swift; sourceTree = "<group>"; };
+		A6271D251CF05C91002B9799 /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		A6271D271CF05C9B002B9799 /* Groups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		A6271D291CF06187002B9799 /* Relationships.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Relationships.swift; sourceTree = "<group>"; };
+		A6271D2B1CF06AF3002B9799 /* TrieNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrieNode.swift; sourceTree = "<group>"; };
+		A6271D2D1CF06AFE002B9799 /* Trie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		A6271D351CF06E32002B9799 /* CareMappingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CareMappingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6271D371CF06E32002B9799 /* CareMappingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareMappingTests.swift; sourceTree = "<group>"; };
+		A6271D391CF06E32002B9799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6271D3F1CF071BA002B9799 /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		A6EB3D1D1CEE5F5200ECDDC3 /* CareMapping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CareMapping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EB3D201CEE5F5200ECDDC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6EB3D221CEE5F5200ECDDC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6EB3D221CEE5F5200ECDDC3 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		A6EB3D251CEE5F5200ECDDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6EB3D271CEE5F5200ECDDC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6EB3D2A1CEE5F5200ECDDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6EB3D2C1CEE5F5200ECDDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6EB3D341CEE746B00ECDDC3 /* GroupsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsTableViewController.swift; sourceTree = "<group>"; };
+		A6EB3D361CEE747B00ECDDC3 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		A6EB3D381CEE748900ECDDC3 /* GroupsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsTableViewCell.swift; sourceTree = "<group>"; };
+		A6EB3D3A1CEE749300ECDDC3 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A6271D321CF06E32002B9799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6EB3D1A1CEE5F5200ECDDC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +82,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6271D361CF06E32002B9799 /* CareMappingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6271D371CF06E32002B9799 /* CareMappingTests.swift */,
+				A6271D391CF06E32002B9799 /* Info.plist */,
+			);
+			path = CareMappingTests;
+			sourceTree = "<group>";
+		};
 		A6EB3D141CEE5F5200ECDDC3 = {
 			isa = PBXGroup;
 			children = (
 				A6EB3D1F1CEE5F5200ECDDC3 /* CareMapping */,
+				A6271D361CF06E32002B9799 /* CareMappingTests */,
 				A6EB3D1E1CEE5F5200ECDDC3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				A6EB3D1D1CEE5F5200ECDDC3 /* CareMapping.app */,
+				A6271D351CF06E32002B9799 /* CareMappingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,8 +113,21 @@
 			isa = PBXGroup;
 			children = (
 				A6EB3D201CEE5F5200ECDDC3 /* AppDelegate.swift */,
-				A6EB3D221CEE5F5200ECDDC3 /* ViewController.swift */,
+				A6EB3D221CEE5F5200ECDDC3 /* HomeScreenViewController.swift */,
+				A6271D231CF059DF002B9799 /* AddPersonViewController.swift */,
+				A6271D211CF059AD002B9799 /* AddGroupViewController.swift */,
+				A6271D1B1CF0095C002B9799 /* FlowViewController.swift */,
 				A6EB3D241CEE5F5200ECDDC3 /* Main.storyboard */,
+				A6EB3D341CEE746B00ECDDC3 /* GroupsTableViewController.swift */,
+				A6EB3D381CEE748900ECDDC3 /* GroupsTableViewCell.swift */,
+				A6EB3D361CEE747B00ECDDC3 /* ContactsTableViewController.swift */,
+				A6EB3D3A1CEE749300ECDDC3 /* ContactsTableViewCell.swift */,
+				A6271D251CF05C91002B9799 /* People.swift */,
+				A6271D271CF05C9B002B9799 /* Groups.swift */,
+				A6271D291CF06187002B9799 /* Relationships.swift */,
+				A6271D2D1CF06AFE002B9799 /* Trie.swift */,
+				A6271D2B1CF06AF3002B9799 /* TrieNode.swift */,
+				A6271D3F1CF071BA002B9799 /* extensions.swift */,
 				A6EB3D271CEE5F5200ECDDC3 /* Assets.xcassets */,
 				A6EB3D291CEE5F5200ECDDC3 /* LaunchScreen.storyboard */,
 				A6EB3D2C1CEE5F5200ECDDC3 /* Info.plist */,
@@ -67,6 +138,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A6271D341CF06E32002B9799 /* CareMappingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6271D3C1CF06E32002B9799 /* Build configuration list for PBXNativeTarget "CareMappingTests" */;
+			buildPhases = (
+				A6271D311CF06E32002B9799 /* Sources */,
+				A6271D321CF06E32002B9799 /* Frameworks */,
+				A6271D331CF06E32002B9799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6271D3B1CF06E32002B9799 /* PBXTargetDependency */,
+			);
+			name = CareMappingTests;
+			productName = CareMappingTests;
+			productReference = A6271D351CF06E32002B9799 /* CareMappingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A6EB3D1C1CEE5F5200ECDDC3 /* CareMapping */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6EB3D2F1CEE5F5200ECDDC3 /* Build configuration list for PBXNativeTarget "CareMapping" */;
@@ -94,6 +183,11 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Connor Fitzpatrick";
 				TargetAttributes = {
+					A6271D341CF06E32002B9799 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U6Y6MMUY2Z;
+						TestTargetID = A6EB3D1C1CEE5F5200ECDDC3;
+					};
 					A6EB3D1C1CEE5F5200ECDDC3 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = U6Y6MMUY2Z;
@@ -114,11 +208,19 @@
 			projectRoot = "";
 			targets = (
 				A6EB3D1C1CEE5F5200ECDDC3 /* CareMapping */,
+				A6271D341CF06E32002B9799 /* CareMappingTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A6271D331CF06E32002B9799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6EB3D1B1CEE5F5200ECDDC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,16 +234,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A6271D311CF06E32002B9799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6271D381CF06E32002B9799 /* CareMappingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6EB3D191CEE5F5200ECDDC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6EB3D231CEE5F5200ECDDC3 /* ViewController.swift in Sources */,
+				A6EB3D3B1CEE749300ECDDC3 /* ContactsTableViewCell.swift in Sources */,
+				A6EB3D231CEE5F5200ECDDC3 /* HomeScreenViewController.swift in Sources */,
+				A6271D281CF05C9B002B9799 /* Groups.swift in Sources */,
+				A6271D2E1CF06AFE002B9799 /* Trie.swift in Sources */,
+				A6271D241CF059DF002B9799 /* AddPersonViewController.swift in Sources */,
+				A6271D401CF071BA002B9799 /* extensions.swift in Sources */,
+				A6271D1C1CF0095C002B9799 /* FlowViewController.swift in Sources */,
+				A6271D261CF05C91002B9799 /* People.swift in Sources */,
+				A6EB3D391CEE748900ECDDC3 /* GroupsTableViewCell.swift in Sources */,
+				A6271D221CF059AD002B9799 /* AddGroupViewController.swift in Sources */,
+				A6EB3D351CEE746B00ECDDC3 /* GroupsTableViewController.swift in Sources */,
+				A6EB3D371CEE747B00ECDDC3 /* ContactsTableViewController.swift in Sources */,
 				A6EB3D211CEE5F5200ECDDC3 /* AppDelegate.swift in Sources */,
+				A6271D2C1CF06AF3002B9799 /* TrieNode.swift in Sources */,
+				A6271D2A1CF06187002B9799 /* Relationships.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6271D3B1CF06E32002B9799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6EB3D1C1CEE5F5200ECDDC3 /* CareMapping */;
+			targetProxy = A6271D3A1CF06E32002B9799 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A6EB3D241CEE5F5200ECDDC3 /* Main.storyboard */ = {
@@ -163,6 +294,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A6271D3D1CF06E32002B9799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CareMappingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cjf.edu.luther.cs353.CareMappingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CareMapping.app/CareMapping";
+			};
+			name = Debug;
+		};
+		A6271D3E1CF06E32002B9799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CareMappingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cjf.edu.luther.cs353.CareMappingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CareMapping.app/CareMapping";
+			};
+			name = Release;
+		};
 		A6EB3D2D1CEE5F5200ECDDC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -273,6 +428,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A6271D3C1CF06E32002B9799 /* Build configuration list for PBXNativeTarget "CareMappingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6271D3D1CF06E32002B9799 /* Debug */,
+				A6271D3E1CF06E32002B9799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		A6EB3D181CEE5F5200ECDDC3 /* Build configuration list for PBXProject "CareMapping" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -289,6 +452,7 @@
 				A6EB3D311CEE5F5200ECDDC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
